@@ -1,0 +1,16 @@
+{
+	"name": "cf-email2slack",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev"
+	},
+	"devDependencies": {
+		"wrangler": "^3.0.0"
+	},
+	"dependencies": {
+		"postal-mime": "^2.0.2"
+	}
+}
